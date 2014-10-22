@@ -20,6 +20,14 @@ int main(int argc, char * argv[]) {
         Persona2 *persona2 = [[Persona2 alloc] initWithParams:@"Javier" primerApellido:@"Garcia" anyoNacimiento:@1985];
         [persona2 diAlgo];
         
+        Persona *persona3;
+        
+        if (persona3) {
+            NSLog(@"La instancia de persona3 no es nula");
+        }else{
+            NSLog(@"La instancia de persona3 es nula");
+        }
+        
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
     
