@@ -29,4 +29,8 @@
     NSLog(@"%@ %@ %@",[self saluda] ,self.nombre, self.primerApellido);
 }
 
+-(NSString*)diAlgoAlerta{
+    return [[NSString alloc] initWithFormat:@"%@ %@ %@",[self saluda] ,self.nombre, self.primerApellido];
+}
+
 @end

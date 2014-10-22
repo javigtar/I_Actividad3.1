@@ -10,5 +10,4 @@
 
 @interface Persona2 : Persona
 
-
 @end

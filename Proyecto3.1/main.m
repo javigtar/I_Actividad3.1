@@ -14,10 +14,10 @@
 int main(int argc, char * argv[]) {
     @autoreleasepool {
         
-        Persona *persona = [[Persona alloc] initWithParams:@"Nombre" primerApellido:@"Apellido" anyoNacimiento:@2000];
+        Persona *persona = [[Persona alloc] initWithParams:@"Javier" primerApellido:@"Garcia" anyoNacimiento:@1985];
         [persona diAlgo];
         
-        Persona2 *persona2 = [[Persona2 alloc] initWithParams:@"Persona2" primerApellido:@"Apellido2" anyoNacimiento:@2500];
+        Persona2 *persona2 = [[Persona2 alloc] initWithParams:@"Javier" primerApellido:@"Garcia" anyoNacimiento:@1985];
         [persona2 diAlgo];
         
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));

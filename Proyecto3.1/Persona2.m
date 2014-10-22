@@ -11,8 +11,12 @@
 @implementation Persona2
 
 -(void)diAlgo{
-    NSString* cadena = (@"%@ %@ %@", [self saluda], self.nombre, self.primerApellido).uppercaseString;
+    NSString* cadena = [[[NSString alloc] initWithFormat:@"%@ %@ %@", [self saluda], self.nombre, self.primerApellido] uppercaseString];
     NSLog(cadena);
+}
+
+-(NSString*)diAlgoAlerta{
+    return [[[NSString alloc] initWithFormat:@"%@ %@ %@", [self saluda], self.nombre, self.primerApellido] uppercaseString];
 }
 
 @end

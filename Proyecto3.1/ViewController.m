@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Persona.h"
+#import "Persona2.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    Persona *persona = [[Persona alloc] initWithParams:@"Javier" primerApellido:@"Garcia" anyoNacimiento:@1985];
+    Persona2 *persona2 = [[Persona2 alloc] initWithParams:@"Javier" primerApellido:@"Garcia" anyoNacimiento:@1985];
+    
+    UIAlertView *alerta = [[UIAlertView alloc] initWithTitle:@"Alerta Persona" message:[persona diAlgoAlerta] delegate:self cancelButtonTitle:@"Cancelar" otherButtonTitles: nil, nil];
+    [alerta show];
+    
+    alerta = [[UIAlertView alloc] initWithTitle:@"Alerta Persona2" message:[persona2 diAlgoAlerta] delegate:self cancelButtonTitle:@"Cancelar" otherButtonTitles: nil, nil];
+    [alerta show];
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -17,6 +17,6 @@
 
 -(NSString*)saluda;
 -(void)diAlgo;
-
+-(NSString*)diAlgoAlerta;
 
 @end
