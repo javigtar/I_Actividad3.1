@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBD6DE6C19F790B3000EF926 /* Persona2.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD6DE6B19F790B3000EF926 /* Persona2.m */; };
 		FBF5957A19F783B400AD01E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF5957919F783B400AD01E3 /* main.m */; };
 		FBF5957D19F783B500AD01E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF5957C19F783B500AD01E3 /* AppDelegate.m */; };
 		FBF5958019F783B500AD01E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF5957F19F783B500AD01E3 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		FBF5958519F783B500AD01E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF5958419F783B500AD01E3 /* Images.xcassets */; };
 		FBF5958819F783B500AD01E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBF5958619F783B500AD01E3 /* LaunchScreen.xib */; };
 		FBF5959419F783B600AD01E3 /* Proyecto3_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF5959319F783B600AD01E3 /* Proyecto3_1Tests.m */; };
+		FBF5959F19F783F800AD01E3 /* Persona.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF5959E19F783F800AD01E3 /* Persona.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FBD6DE6A19F790B3000EF926 /* Persona2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persona2.h; sourceTree = "<group>"; };
+		FBD6DE6B19F790B3000EF926 /* Persona2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persona2.m; sourceTree = "<group>"; };
 		FBF5957419F783B400AD01E3 /* Proyecto3.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto3.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF5957819F783B400AD01E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBF5957919F783B400AD01E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		FBF5958D19F783B600AD01E3 /* Proyecto3.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Proyecto3.1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF5959219F783B600AD01E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBF5959319F783B600AD01E3 /* Proyecto3_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Proyecto3_1Tests.m; sourceTree = "<group>"; };
+		FBF5959D19F783F800AD01E3 /* Persona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persona.h; sourceTree = "<group>"; };
+		FBF5959E19F783F800AD01E3 /* Persona.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persona.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				FBF5957C19F783B500AD01E3 /* AppDelegate.m */,
 				FBF5957E19F783B500AD01E3 /* ViewController.h */,
 				FBF5957F19F783B500AD01E3 /* ViewController.m */,
+				FBF5959D19F783F800AD01E3 /* Persona.h */,
+				FBF5959E19F783F800AD01E3 /* Persona.m */,
+				FBD6DE6A19F790B3000EF926 /* Persona2.h */,
+				FBD6DE6B19F790B3000EF926 /* Persona2.m */,
 				FBF5958119F783B500AD01E3 /* Main.storyboard */,
 				FBF5958419F783B500AD01E3 /* Images.xcassets */,
 				FBF5958619F783B500AD01E3 /* LaunchScreen.xib */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF5959F19F783F800AD01E3 /* Persona.m in Sources */,
 				FBF5958019F783B500AD01E3 /* ViewController.m in Sources */,
 				FBF5957D19F783B500AD01E3 /* AppDelegate.m in Sources */,
+				FBD6DE6C19F790B3000EF926 /* Persona2.m in Sources */,
 				FBF5957A19F783B400AD01E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +424,7 @@
 				FBF5959919F783B600AD01E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBF5959A19F783B600AD01E3 /* Build configuration list for PBXNativeTarget "Proyecto3.1Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				FBF5959C19F783B600AD01E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
